@@ -1,7 +1,7 @@
 {
-  "name": "pomodoro-timer",
-  "version": "0.0.0",
-  "description": "No description",
+  "name": "Pomodoro Timer",
+  "version": "1.0.0",
+  "description": "Pomodoro Timer implementation",
   "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
