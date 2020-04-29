@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "pomodoro-timer",
-    "description": "No description",
+    "name": "Pomodoro Timer",
+    "description": "A Pomodoro method implementation",
     "slug": "snack-e4a31ba3-0ad2-49ca-a13b-263d7e1768ff",
     "privacy": "unlisted",
     "sdkVersion": "37.0.0",
@@ -21,8 +21,9 @@
         "xml"
       ]
     },
-    "ios": {
-      "supportsTablet": true
+    "android": {
+      "package": "xyz.ethanjoyce.pomodorotimer",
+      "versionCode": 1
     }
   }
 }
