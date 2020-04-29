@@ -1,19 +1,20 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import './Global.js'
+import * as React from 'react'
+import { Text, Button, View, StyleSheet } from 'react-native'
+import { createDrawerNavigator } from 'react-navigation'
+import Counter from './Counter'
+import Settings from './Settings'
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+    <RootNavigator />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+const RootNavigator = createDrawerNavigator({
+  Counter: { screen: Counter },
+  Settings: { screen: Settings },
+}, {
+  initialRouteName: 'Counter',
 });
