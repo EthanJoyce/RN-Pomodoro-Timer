@@ -1,12 +1,13 @@
 {
-  "name": "Pomodoro Timer",
+  "name": "pomodoro_timer",
   "version": "1.0.0",
   "description": "Pomodoro Timer implementation",
-  "author": null,
+  "author": "Ethan Joyce",
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "devDependencies": {
-    "babel-preset-expo": "^7.0.0"
+    "babel-preset-expo": "^7.0.0",
+    "lodash": ">=4.17.19"
   },
   "dependencies": {
     "@react-navigation/native": "^5.1.7",
